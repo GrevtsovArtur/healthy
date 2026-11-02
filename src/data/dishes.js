@@ -17,6 +17,19 @@ export const DISHES = [
   d("t2", "Энергетический шар", "desserts", "BALANCE", "Финики, орехи, кокос", 900, 180, 4, 8, 24, 50, ["финики", "грецкий орех", "кокос"], ["орехи"], 30, "/healthy/images/dessert-energy-ball.png", true),
 ];
 
+
+export const CATEGORIES = [
+  { id: "all", label: "Все блюда" },
+  { id: "bowls", label: "Боулы" },
+  { id: "salads", label: "Салаты" },
+  { id: "breakfast", label: "Завтраки" },
+  { id: "drinks", label: "Напитки" },
+  { id: "desserts", label: "Десерты" },
+  { id: "FIT", label: "FIT" },
+  { id: "BALANCE", label: "BALANCE" },
+  { id: "LIGHT", label: "LIGHT" },
+];
+
 export const MODES = {
   FIT: { title: "FIT", text: "Высокобелковые блюда для активных людей и спортсменов.", bg: "bg-lime" },
   BALANCE: { title: "BALANCE", text: "Сбалансированное питание на каждый день.", bg: "bg-clay" },
