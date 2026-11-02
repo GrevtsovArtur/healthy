@@ -29,7 +29,7 @@ export default async function Home() {
               <Link href="/build-bowl" className="btn-line">Собрать свой Bowl</Link>
             </div>
           </div>
-          <img src="/images/1 img health.jpg" alt="Пример Bowl" className="mx-auto w-full max-w-[400px] h-full object-cover rounded-lg" />
+          <img src="/healthy/images/1 img health.jpg" alt="Пример Bowl" className="mx-auto w-full max-w-[400px] h-full object-cover rounded-lg" />
         </div>
       </section>
 
