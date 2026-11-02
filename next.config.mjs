@@ -3,7 +3,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  basePath: "/healthy",
+  basePath: "/healthy-food",
 
   images: {
     unoptimized: true,
