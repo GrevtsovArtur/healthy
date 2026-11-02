@@ -2,12 +2,11 @@
 
 const nextConfig = {
   reactStrictMode: true,
-
   output: "export",
+  basePath: "/healthy",
 
   images: {
     unoptimized: true,
-    formats: ["image/avif", "image/webp"],
   },
 };
 
